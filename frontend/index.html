@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 DevOps Todo Application</h1>
+        <p class="subtitle">Microservices | Docker | Kubernetes | CI/CD</p>
+        
+        <div class="input-group">
+            <input type="text" id="todoInput" placeholder="Enter a new task..." />
+            <button onclick="addTodo()">Add Task</button>
+        </div>
+        
+        <div id="todoList" class="todo-list"></div>
+        
+        <div class="footer">
+            <p>Backend Status: <span id="status" class="status-indicator">●</span></p>
+            <p class="tech-stack">Built with Flask | Nginx | Kubernetes | Azure</p>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
